@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8fd6ab0-6f7f-4b95-b5d7-e7d5e475fb73" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_thread01.coverage" NAME="qt05_thread01 Coverage Results" MODIFIED="1545304355653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$pyqtBoundSignal.coverage" NAME="pyqtBoundSignal Coverage Results" MODIFIED="1548034310886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Lib/site-packages/PyQt5/QtCore" />
+    <SUITE FILE_PATH="coverage/python_isz_test$data_a_residential.coverage" NAME="data_a_residential Coverage Results" MODIFIED="1545630736188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataTools" />
+    <SUITE FILE_PATH="coverage/python_isz_test$DataGrid.coverage" NAME="DataGrid Coverage Results" MODIFIED="1545136750288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$duan_zu_house.coverage" NAME="duan_zu_house Coverage Results" MODIFIED="1544535994078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_drawPoint.coverage" NAME="qt04_drawPoint Coverage Results" MODIFIED="1545189792991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$allUi.coverage" NAME="allUi Coverage Results" MODIFIED="1548145604081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sysDemo/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$add_lrb_issue.coverage" NAME="add_lrb_issue Coverage Results" MODIFIED="1545630999585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataTools" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Unittests_in_testCaseHC_py.coverage" NAME="Unittests in testCaseHC.py Coverage Results" MODIFIED="1546592049147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoRequestDemo/testCase/testhouseContract" />
+    <SUITE FILE_PATH="coverage/python_isz_test$main_ui.coverage" NAME="main_ui Coverage Results" MODIFIED="1545642110242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt09_db04.coverage" NAME="qt09_db04 Coverage Results" MODIFIED="1545213642592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter09" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Ui_combination.coverage" NAME="Ui_combination Coverage Results" MODIFIED="1545133979676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter11" />
+    <SUITE FILE_PATH="coverage/python_isz_test$main_ui5.coverage" NAME="main_ui5 Coverage Results" MODIFIED="1545456837551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tbSelItem.coverage" NAME="qt05_tbSelItem Coverage Results" MODIFIED="1545304325734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$updata_isz_login.coverage" NAME="updata_isz_login Coverage Results" MODIFIED="1545630153195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataTools" />
+    <SUITE FILE_PATH="coverage/python_isz_test$select_null_set_delivery_date.coverage" NAME="select_null_set_delivery_date Coverage Results" MODIFIED="1539827977531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt0411_QComboBox.coverage" NAME="qt0411_QComboBox Coverage Results" MODIFIED="1545207367228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$base.coverage" NAME="base Coverage Results" MODIFIED="1547174002347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_QDateTimeEdit01.coverage" NAME="qt04_QDateTimeEdit01 Coverage Results" MODIFIED="1545189852105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tbltemSpan.coverage" NAME="qt05_tbltemSpan Coverage Results" MODIFIED="1545304310609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$demo.coverage" NAME="demo Coverage Results" MODIFIED="1546925678677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WeiYiDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$addTestKeyword.coverage" NAME="addTestKeyword Coverage Results" MODIFIED="1545803440018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$customerRequest.coverage" NAME="customerRequest Coverage Results" MODIFIED="1543894290813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/iszErpRequest" />
+    <SUITE FILE_PATH="coverage/python_isz_test$CallMainWin.coverage" NAME="CallMainWin Coverage Results" MODIFIED="1546065625698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui_demo/demo/app" />
+    <SUITE FILE_PATH="coverage/python_isz_test$CallMainWin01.coverage" NAME="CallMainWin01 Coverage Results" MODIFIED="1545187630449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter03/mainWin" />
+    <SUITE FILE_PATH="coverage/python_isz_test$fundFOF.coverage" NAME="fundFOF Coverage Results" MODIFIED="1545386289905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter11" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_db01.coverage" NAME="qt05_db01 Coverage Results" MODIFIED="1545137338562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Unittests_in_residentialTestCase_py.coverage" NAME="Unittests in residentialTestCase.py Coverage Results" MODIFIED="1547606552611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoRequestDemo/testCase/residential" />
+    <SUITE FILE_PATH="coverage/python_isz_test$tool_ui_py.coverage" NAME="tool_ui_py Coverage Results" MODIFIED="1548303449998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sysDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tblItemColor.coverage" NAME="qt05_tblItemColor Coverage Results" MODIFIED="1545304165024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_lineEdit04.coverage" NAME="qt04_lineEdit04 Coverage Results" MODIFIED="1545189804000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_painter.coverage" NAME="qt04_painter Coverage Results" MODIFIED="1545189811273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$add_financial_flow__1_.coverage" NAME="add_financial_flow (1) Coverage Results" MODIFIED="1545203707036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tblHeader.coverage" NAME="qt05_tblHeader Coverage Results" MODIFIED="1545304138911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$openweb.coverage" NAME="openweb Coverage Results" MODIFIED="1545138520100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter10/example3" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Unittests_in_unitTestCase_py.coverage" NAME="Unittests in unitTestCase.py Coverage Results" MODIFIED="1547607509255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/residential" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tblItemOrder.coverage" NAME="qt05_tblItemOrder Coverage Results" MODIFIED="1545304220842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$auditHouseContract__1_.coverage" NAME="auditHouseContract (1) Coverage Results" MODIFIED="1547711152299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/python_isz_test$get_achievement_issue_condition.coverage" NAME="get_achievement_issue_condition Coverage Results" MODIFIED="1541515388323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/python_isz_test$data_d_decoration.coverage" NAME="data_d_decoration Coverage Results" MODIFIED="1543894093970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataTools" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_QDateTimeEdit02.coverage" NAME="qt04_QDateTimeEdit02 Coverage Results" MODIFIED="1545189856669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$add_isz_request_mysql.coverage" NAME="add_isz_request_mysql Coverage Results" MODIFIED="1542527997921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_freshUi.coverage" NAME="qt05_freshUi Coverage Results" MODIFIED="1545137727218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$main_ui_4_.coverage" NAME="main_ui(4) Coverage Results" MODIFIED="1545645133430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$fin.coverage" NAME="fin Coverage Results" MODIFIED="1545619728636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$myComputer.coverage" NAME="myComputer Coverage Results" MODIFIED="1547110452113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$CallMainWin02.coverage" NAME="CallMainWin02 Coverage Results" MODIFIED="1545187649228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter03/mainWin" />
+    <SUITE FILE_PATH="coverage/python_isz_test$run__3_.coverage" NAME="run (3) Coverage Results" MODIFIED="1547542327718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoRequestDemo/testCase/testhouseContract" />
+    <SUITE FILE_PATH="coverage/python_isz_test$CallMainWinSignalSlog03.coverage" NAME="CallMainWinSignalSlog03 Coverage Results" MODIFIED="1545100825409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui_demo/demo/app" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_property.coverage" NAME="qt05_property Coverage Results" MODIFIED="1545137769977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_QInputDialog.coverage" NAME="qt04_QInputDialog Coverage Results" MODIFIED="1545190132897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_lineEdit01.coverage" NAME="qt04_lineEdit01 Coverage Results" MODIFIED="1545200457282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$main_main.coverage" NAME="main_main Coverage Results" MODIFIED="1545460968294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$uiDemo.coverage" NAME="uiDemo Coverage Results" MODIFIED="1545807003094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$sysUi.coverage" NAME="sysUi Coverage Results" MODIFIED="1545710008076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$myRequest.coverage" NAME="myRequest Coverage Results" MODIFIED="1547195356598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$interest.coverage" NAME="interest Coverage Results" MODIFIED="1545187466114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter10/example2" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_QDockWidget.coverage" NAME="qt04_QDockWidget Coverage Results" MODIFIED="1545189912951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$add_financial_flow.coverage" NAME="add_financial_flow Coverage Results" MODIFIED="1545202415668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_webview01.coverage" NAME="qt05_webview01 Coverage Results" MODIFIED="1545136903983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt403_QIcon.coverage" NAME="qt403_QIcon Coverage Results" MODIFIED="1545131944745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui_demo/demo/app" />
+    <SUITE FILE_PATH="coverage/python_isz_test$ES.coverage" NAME="ES Coverage Results" MODIFIED="1547546432140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/python_isz_test$data_e_apartment.coverage" NAME="data_e_apartment Coverage Results" MODIFIED="1544172724659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataTools" />
+    <SUITE FILE_PATH="coverage/python_isz_test$run_sys.coverage" NAME="run_sys Coverage Results" MODIFIED="1548645008837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sysDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Plotly_PyQt5.coverage" NAME="Plotly_PyQt5 Coverage Results" MODIFIED="1545138474475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter11" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_drawBrush.coverage" NAME="qt04_drawBrush Coverage Results" MODIFIED="1545189784591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tblBasic.coverage" NAME="qt05_tblBasic Coverage Results" MODIFIED="1545304100013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Unittests_in_testtest_py.coverage" NAME="Unittests in testtest.py Coverage Results" MODIFIED="1547604892278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoRequestDemo/testCase/residentialTestCase" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_drawText.coverage" NAME="qt04_drawText Coverage Results" MODIFIED="1545189796800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt406_QLabel.coverage" NAME="qt406_QLabel Coverage Results" MODIFIED="1545132584218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui_demo/demo/app" />
+    <SUITE FILE_PATH="coverage/python_isz_test$my_sqlite.coverage" NAME="my_sqlite Coverage Results" MODIFIED="1545638414575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys" />
+    <SUITE FILE_PATH="coverage/python_isz_test$myEmail.coverage" NAME="myEmail Coverage Results" MODIFIED="1547619523490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Ui_fundFOF.coverage" NAME="Ui_fundFOF Coverage Results" MODIFIED="1545386251464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter11" />
+    <SUITE FILE_PATH="coverage/python_isz_test$mysql_production.coverage" NAME="mysql_production Coverage Results" MODIFIED="1544529316372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/python_isz_test$CallOpenWeb.coverage" NAME="CallOpenWeb Coverage Results" MODIFIED="1545137008198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter10/example3" />
+    <SUITE FILE_PATH="coverage/python_isz_test$CallMainWinSignalSlog01.coverage" NAME="CallMainWinSignalSlog01 Coverage Results" MODIFIED="1545274245552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter03" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tblViewModel.coverage" NAME="qt05_tblViewModel Coverage Results" MODIFIED="1545304316253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Unittests_in_testCaseResidential_py.coverage" NAME="Unittests in testCaseResidential.py Coverage Results" MODIFIED="1546503780043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoRequestDemo/testCase/residential" />
+    <SUITE FILE_PATH="coverage/python_isz_test$CallMainWin02__1_.coverage" NAME="CallMainWin02 (1) Coverage Results" MODIFIED="1545187704168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter03" />
+    <SUITE FILE_PATH="coverage/python_isz_test$CallDialogMainWin.coverage" NAME="CallDialogMainWin Coverage Results" MODIFIED="1545138344872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter07/transParam" />
+    <SUITE FILE_PATH="coverage/python_isz_test$financialRepaymentDataRequest.coverage" NAME="financialRepaymentDataRequest Coverage Results" MODIFIED="1545645639049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$bbb.coverage" NAME="bbb Coverage Results" MODIFIED="1545731572121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui_demo/demo/ui" />
+    <SUITE FILE_PATH="coverage/python_isz_test$select_two_achievement_issue.coverage" NAME="select_two_achievement_issue Coverage Results" MODIFIED="1543907036018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_QClipboard.coverage" NAME="qt04_QClipboard Coverage Results" MODIFIED="1545189837167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt09_db01.coverage" NAME="qt09_db01 Coverage Results" MODIFIED="1545213482924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter09" />
+    <SUITE FILE_PATH="coverage/python_isz_test$auditHouseContract.coverage" NAME="auditHouseContract Coverage Results" MODIFIED="1548123483849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/iszErpRequest" />
+    <SUITE FILE_PATH="coverage/python_isz_test$seleniumDemo.coverage" NAME="seleniumDemo Coverage Results" MODIFIED="1546048480417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/python_isz_test$layout_demo_LayoutManage.coverage" NAME="layout_demo_LayoutManage Coverage Results" MODIFIED="1545187515126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter03" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Unittests_in_addHouseTestCase_py.coverage" NAME="Unittests in addHouseTestCase.py Coverage Results" MODIFIED="1547607685803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/house" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_drag.coverage" NAME="qt04_drag Coverage Results" MODIFIED="1545189757638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$myRandom.coverage" NAME="myRandom Coverage Results" MODIFIED="1547197456392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$MainForm2.coverage" NAME="MainForm2 Coverage Results" MODIFIED="1545187681610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter03/mainWin" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_db03.coverage" NAME="qt05_db03 Coverage Results" MODIFIED="1545137722690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$FirstWin.coverage" NAME="FirstWin Coverage Results" MODIFIED="1545188236988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter01" />
+    <SUITE FILE_PATH="coverage/python_isz_test$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1547620600273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sysDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Unittests_in_test_generating_001_py.coverage" NAME="Unittests in test_generating_001.py Coverage Results" MODIFIED="1547535371155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/newAchievement/issue_condition_info" />
+    <SUITE FILE_PATH="coverage/python_isz_test$myMongoDB.coverage" NAME="myMongoDB Coverage Results" MODIFIED="1547704609554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$run_threading.coverage" NAME="run_threading Coverage Results" MODIFIED="1547534379155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoRequestDemo/testCase" />
+    <SUITE FILE_PATH="coverage/python_isz_test$data_b_houseDevelop.coverage" NAME="data_b_houseDevelop Coverage Results" MODIFIED="1545630826400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataTools" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_closeMainWin.coverage" NAME="qt04_closeMainWin Coverage Results" MODIFIED="1545189742544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tblCmb.coverage" NAME="qt05_tblCmb Coverage Results" MODIFIED="1545304124139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tblItemFont.coverage" NAME="qt05_tblItemFont Coverage Results" MODIFIED="1545304182745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tblItemIcon01.coverage" NAME="qt05_tblItemIcon01 Coverage Results" MODIFIED="1545304187817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tblItemIcon02.coverage" NAME="qt05_tblItemIcon02 Coverage Results" MODIFIED="1545304198937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$sys_ui.coverage" NAME="sys_ui Coverage Results" MODIFIED="1545644866155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$ChildrenForm2.coverage" NAME="ChildrenForm2 Coverage Results" MODIFIED="1545187670139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter03/mainWin" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Unittests_for_testCaseResidential_Residential_test_case_52.coverage" NAME="Unittests for testCaseResidential.Residential.test_case_52 Coverage Results" MODIFIED="1546503418287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoRequestDemo/testCase/residential" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tblMenu.coverage" NAME="qt05_tblMenu Coverage Results" MODIFIED="1545304274035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt404_QToolTip.coverage" NAME="qt404_QToolTip Coverage Results" MODIFIED="1545131970012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui_demo/demo/app" />
+    <SUITE FILE_PATH="coverage/python_isz_test$sysRequest.coverage" NAME="sysRequest Coverage Results" MODIFIED="1544511574059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/iszErpRequest" />
+    <SUITE FILE_PATH="coverage/python_isz_test$myExcel.coverage" NAME="myExcel Coverage Results" MODIFIED="1547101292386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$test_.coverage" NAME="test_ Coverage Results" MODIFIED="1548298435759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sysDemo/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$data_c_houseContract.coverage" NAME="data_c_houseContract Coverage Results" MODIFIED="1544863262457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataTools" />
+    <SUITE FILE_PATH="coverage/python_isz_test$demo_test.coverage" NAME="demo_test Coverage Results" MODIFIED="1539845774551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tblRow.coverage" NAME="qt05_tblRow Coverage Results" MODIFIED="1545304282911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$CallWeatherWin.coverage" NAME="CallWeatherWin Coverage Results" MODIFIED="1545137075623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter10/example1" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_QCalendar.coverage" NAME="qt04_QCalendar Coverage Results" MODIFIED="1545209835355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$addFinancialFlow.coverage" NAME="addFinancialFlow Coverage Results" MODIFIED="1545719904111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_listView.coverage" NAME="qt05_listView Coverage Results" MODIFIED="1545137760044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_db02.coverage" NAME="qt05_db02 Coverage Results" MODIFIED="1545137719739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$MainForm.coverage" NAME="MainForm Coverage Results" MODIFIED="1545187675267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter03/mainWin" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Unittests_in_buildingTestCase_py.coverage" NAME="Unittests in buildingTestCase.py Coverage Results" MODIFIED="1547607492980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/residential" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_drawPen.coverage" NAME="qt04_drawPen Coverage Results" MODIFIED="1545189789479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$aaaa.coverage" NAME="aaaa Coverage Results" MODIFIED="1545730331812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui_demo/demo/ui" />
+    <SUITE FILE_PATH="coverage/python_isz_test$demo1224.coverage" NAME="demo1224 Coverage Results" MODIFIED="1545621839220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$main_ui__1_.coverage" NAME="main_ui (1) Coverage Results" MODIFIED="1545277963777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$addResidentialTestCase.coverage" NAME="addResidentialTestCase Coverage Results" MODIFIED="1547542251268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoRequestDemo/testCase/residentialTestCase" />
+    <SUITE FILE_PATH="coverage/python_isz_test$caidanlan.coverage" NAME="caidanlan Coverage Results" MODIFIED="1548303664864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sysDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$myThread.coverage" NAME="myThread Coverage Results" MODIFIED="1546940982097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoRequestDemo/common" />
+    <SUITE FILE_PATH="coverage/python_isz_test$hua_tu.coverage" NAME="hua_tu Coverage Results" MODIFIED="1546423462097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sysDemo/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$reaccounting_achievement_issue.coverage" NAME="reaccounting_achievement_issue Coverage Results" MODIFIED="1539874442887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/python_isz_test$select_apartment_house_contract_relation.coverage" NAME="select_apartment_house_contract_relation Coverage Results" MODIFIED="1539856019094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/python_isz_test$test.coverage" NAME="test Coverage Results" MODIFIED="1547085218089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$update_house_contract_real_due_date.coverage" NAME="update_house_contract_real_due_date Coverage Results" MODIFIED="1542004617645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt04_QFontDialog.coverage" NAME="qt04_QFontDialog Coverage Results" MODIFIED="1545189917753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter04" />
+    <SUITE FILE_PATH="coverage/python_isz_test$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1547621837477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/residential" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_tbltemAlign.coverage" NAME="qt05_tbltemAlign Coverage Results" MODIFIED="1545304369154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$data_f_apartmentContract.coverage" NAME="data_f_apartmentContract Coverage Results" MODIFIED="1545369780578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataTools" />
+    <SUITE FILE_PATH="coverage/python_isz_test$mySql.coverage" NAME="mySql Coverage Results" MODIFIED="1547113158456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Unittests_for_testCaseResidential_Residential_test_case_1.coverage" NAME="Unittests for testCaseResidential.Residential.test_case_1 Coverage Results" MODIFIED="1546500295685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoRequestDemo/testCase/residential" />
+    <SUITE FILE_PATH="coverage/python_isz_test$myConfigparser.coverage" NAME="myConfigparser Coverage Results" MODIFIED="1547172494066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$myTime.coverage" NAME="myTime Coverage Results" MODIFIED="1547104936460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classDemo" />
+    <SUITE FILE_PATH="coverage/python_isz_test$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1545386542654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/finance_sys/client" />
+    <SUITE FILE_PATH="coverage/python_isz_test$Unittests_in_residentialTestCase_py__1_.coverage" NAME="Unittests in residentialTestCase.py (1) Coverage Results" MODIFIED="1547607403800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/residential" />
+    <SUITE FILE_PATH="coverage/python_isz_test$run.coverage" NAME="run Coverage Results" MODIFIED="1547628576513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/house" />
+    <SUITE FILE_PATH="coverage/python_isz_test$CallFirstMainWin.coverage" NAME="CallFirstMainWin Coverage Results" MODIFIED="1545187692301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5-master/Chapter03" />
+    <SUITE FILE_PATH="coverage/python_isz_test$qt05_QTabWidget.coverage" NAME="qt05_QTabWidget Coverage Results" MODIFIED="1545618590534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt_demo/Chapter05" />
+    <SUITE FILE_PATH="coverage/python_isz_test$updata_duanzu_baifenbi.coverage" NAME="updata_duanzu_baifenbi Coverage Results" MODIFIED="1545013783085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-66014280">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="25" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="4" />
+          <entry key="project.open.time.16" value="10" />
+          <entry key="project.open.time.17" value="3" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="5" />
+          <entry key="project.open.time.21" value="5" />
+          <entry key="project.open.time.224" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="59" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bei_wang" value="1" />
+          <entry key="html" value="12" />
+          <entry key="ico" value="2" />
+          <entry key="ini" value="26" />
+          <entry key="log" value="7" />
+          <entry key="md" value="1" />
+          <entry key="png" value="1" />
+          <entry key="py" value="826" />
+          <entry key="pyi" value="1" />
+          <entry key="spec" value="3" />
+          <entry key="sql" value="1" />
+          <entry key="test" value="1" />
+          <entry key="txt" value="2" />
+          <entry key="ui" value="2" />
+          <entry key="yaml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="12" />
+          <entry key="Image" value="3" />
+          <entry key="Ini" value="26" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="826" />
+          <entry key="PythonStub" value="1" />
+          <entry key="Qt UI file" value="2" />
+          <entry key="Scratch" value="1" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="2007" />
+          <entry key="dummy" value="26" />
+          <entry key="ini" value="132" />
+          <entry key="py" value="35549" />
+          <entry key="test" value="8" />
+          <entry key="txt" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="132" />
+          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="Python" value="37555" />
+          <entry key="SQL" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sysDemo/client/allUi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="701">
+              <caret line="245" column="64" lean-forward="true" selection-start-line="245" selection-start-column="53" selection-end-line="245" selection-end-column="64" />
+              <folding>
+                <element signature="e#3100#16481#0" />
+                <marker date="1548653757006" expanded="true" signature="16700:29876" ph="..." />
+                <marker date="1548653757006" expanded="true" signature="29912:40972" ph="..." />
+                <marker date="1548653757006" expanded="true" signature="41048:41057" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/residential/residentialTestCase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iszErpRequest/residentialRequest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="116" column="34" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sysDemo/service/keywordRequest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="e#102#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sysDemo/service/financialRepaymentRequest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" selection-start-line="5" selection-end-line="63" selection-end-column="21" />
+              <folding>
+                <element signature="e#185#2777#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sysDemo/service/creditCardRequest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding>
+                <element signature="e#146#751#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sysDemo/service/testDemoRequest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#127#138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sysDemo/run_sys.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
+              <folding>
+                <element signature="e#25#35#0" expanded="true" />
+                <element signature="e#8214#13851#0" />
+                <element signature="e#8917#14554#0" />
+                <element signature="e#14603#15175#0" />
+                <marker date="1548641906645" expanded="true" signature="6244:14131" ph="..." />
+                <marker date="1548641906645" expanded="true" signature="14449:14455" ph="..." />
+                <marker date="1548641906645" expanded="true" signature="26519:26524" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sysDemo/caidanlan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="29" column="40" selection-start-line="29" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sysDemo/test_add_data.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>generate_test_keyword_value</find>
+      <find>finance_bill_flow_item</find>
+      <find>credit_card_delete_PushButton1</find>
+      <find>QLineEdit</find>
+      <find>update_credit_card_page7</find>
+      <find>update_credit_card_page11</find>
+      <find>福利日期</find>
+      <find>do_job</find>
+      <find>Response</find>
+      <find>project_run_page_1</find>
+      <find>您确定</find>
+      <find>项目运行操作栏按钮赋值</find>
+      <find>upadte_page1</find>
+      <find>192.168.0.227</find>
+      <find>最棒QA</find>
+      <find>result</find>
+      <find>self.result</find>
+      <find>失败</find>
+      <find>getReportAttributes</find>
+      <find>generateReport</find>
+      <find>repayment_amount</find>
+      <find>get_project_info</find>
+      <find>MongDB</find>
+      <find>QtGui</find>
+      <find>execjs</find>
+      <find>requests</find>
+      <find>print</find>
+      <find>setFont</find>
+      <find>project_detailed_PushButtonAll</find>
+      <find>color</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/autoRequestDemo/sysDemo/client/allUi.py" />
+        <option value="$PROJECT_DIR$/autoRequestDemo/sysDemo/run.py" />
+        <option value="$PROJECT_DIR$/autoRequestDemo/testCase/residentialTestCase.py" />
+        <option value="$PROJECT_DIR$/autoRequestDemo/testCase/run.py" />
+        <option value="$PROJECT_DIR$/autoRequestDemo/testCase/testhouseContract/testCaseHC.py" />
+        <option value="$PROJECT_DIR$/autoRequestDemo/testCase/residentialTestCase/addResidentialTestCase.py" />
+        <option value="$PROJECT_DIR$/script/ES.py" />
+        <option value="$PROJECT_DIR$/common/interface.py" />
+        <option value="$PROJECT_DIR$/autoRequestDemo/testCase/residentialTestCase/testtest.py" />
+        <option value="$PROJECT_DIR$/autoRequestDemo/testCase/residential/residentialTestCase.py" />
+        <option value="$PROJECT_DIR$/autoRequestDemo/testCase/residential/buildingTestCase.py" />
+        <option value="$PROJECT_DIR$/autoRequestDemo/testCase/residential/unitTestCase.py" />
+        <option value="$PROJECT_DIR$/autoRequestDemo/testCase/house/addHouseTestCase.py" />
+        <option value="$PROJECT_DIR$/common/getCookie.py" />
+        <option value="$PROJECT_DIR$/classDemo/loginRequest.py" />
+        <option value="$PROJECT_DIR$/iszErpRequest/loginRequest.py" />
+        <option value="$PROJECT_DIR$/classDemo/myConfigparser.py" />
+        <option value="$PROJECT_DIR$/common/conf.ini" />
+        <option value="$PROJECT_DIR$/iszErpRequest/residentialRequest.py" />
+        <option value="$PROJECT_DIR$/iszErpRequest/houseDevelopRequest.py" />
+        <option value="$PROJECT_DIR$/sysDemo/sqlite/mySqlite.py" />
+        <option value="$PROJECT_DIR$/sysDemo/client/deleteCreditCardInfo.py" />
+        <option value="$PROJECT_DIR$/sysDemo/client/deleteFinancialFlowInfo.py" />
+        <option value="$PROJECT_DIR$/sysDemo/client/updateFinancialFlowPage.py" />
+        <option value="$PROJECT_DIR$/sysDemo/client/updateCreditCardPage.py" />
+        <option value="$PROJECT_DIR$/sysDemo/service/creditCardRequest.py" />
+        <option value="$PROJECT_DIR$/sysDemo/client/updateCapitalInfoPage.py" />
+        <option value="$PROJECT_DIR$/sysDemo/run.py" />
+        <option value="$PROJECT_DIR$/classDemo/test" />
+        <option value="$PROJECT_DIR$/classDemo/test.txt" />
+        <option value="$PROJECT_DIR$/classDemo/myEmail.py" />
+        <option value="$PROJECT_DIR$/common/base.py" />
+        <option value="$PROJECT_DIR$/sysDemo/client/runProjectPage.py" />
+        <option value="$PROJECT_DIR$/common/HTMLTestReportCN.py" />
+        <option value="$PROJECT_DIR$/testCase/house/addHouseTestCase.py" />
+        <option value="$PROJECT_DIR$/iszErpRequest/houseContractRequest.py" />
+        <option value="$PROJECT_DIR$/classDemo/myMongoDB.py" />
+        <option value="$PROJECT_DIR$/sysDemo/tool_ui_py.py" />
+        <option value="$PROJECT_DIR$/classDemo/getCookie.py" />
+        <option value="$PROJECT_DIR$/iszErpRequest/ES.py" />
+        <option value="$PROJECT_DIR$/testCase/house/run.py" />
+        <option value="$PROJECT_DIR$/testCase/residential/run.py" />
+        <option value="$PROJECT_DIR$/sysDemo/service/financialFlowRequest.py" />
+        <option value="$PROJECT_DIR$/sysDemo/service/financialRepaymentRequest.py" />
+        <option value="$PROJECT_DIR$/iszErpRequest/auditHouseContract.py" />
+        <option value="$PROJECT_DIR$/sysDemo/service/testDemoRequest.py" />
+        <option value="$PROJECT_DIR$/sysDemo/client/test_.py" />
+        <option value="$PROJECT_DIR$/sysDemo/caidanlan.py" />
+        <option value="$PROJECT_DIR$/sysDemo/service/keywordRequest.py" />
+        <option value="$PROJECT_DIR$/sysDemo/run_sys.py" />
+        <option value="$PROJECT_DIR$/sysDemo/client/allUi.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+              <item name="iszErpRequest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+              <item name="iszErpRequest" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+              <item name="sysDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+              <item name="sysDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+              <item name="sysDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+              <item name="sysDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+              <item name="residential" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (python_isz_test) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (python_isz_test) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python3.7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (python_isz_test) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (python_isz_test) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+              <item name="sysDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (python_isz_test) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="python_isz_test" type="462c0819:PsiDirectoryNode" />
+              <item name="sysDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_isz_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../auditHouseContract.py" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python3.7\python_isz_test\autoRequestDemo\testCase" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python3.7\python_isz_test\iszErpRequest" />
+      <recent name="D:\Python3.7\python_isz_test\classDemo" />
+      <recent name="D:\Python3.7\python_isz_test\common" />
+      <recent name="D:\Python3.7\python_isz_test\testCase\house" />
+      <recent name="D:\Python3.7\python_isz_test\testCase\residential" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_sys">
+    <configuration name="allUi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_isz_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sysDemo/client" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sysDemo/client/allUi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="caidanlan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_isz_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sysDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sysDemo/caidanlan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_sys" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_isz_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sysDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sysDemo/run_sys.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_isz_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sysDemo/client" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sysDemo/client/test_.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tool_ui_py" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_isz_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sysDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sysDemo/tool_ui_py.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.run_sys" />
+      <item itemvalue="Python.test_" />
+      <item itemvalue="Python.allUi" />
+      <item itemvalue="Python.tool_ui_py" />
+      <item itemvalue="Python.caidanlan" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_sys" />
+        <item itemvalue="Python.caidanlan" />
+        <item itemvalue="Python.tool_ui_py" />
+        <item itemvalue="Python.test_" />
+        <item itemvalue="Python.allUi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8fd6ab0-6f7f-4b95-b5d7-e7d5e475fb73" name="Default Changelist" comment="" />
+      <created>1539400045196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539400045196</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_residentialTestCase_py_(1) - 2019.01.16 at 10h 52m 57s.xml">
+      <configuration name="Unittests in residentialTestCase.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_residentialTestCase_py_(1) - 2019.01.16 at 10h 53m 56s.xml">
+      <configuration name="Unittests in residentialTestCase.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_residentialTestCase_py_(1) - 2019.01.16 at 10h 54m 09s.xml">
+      <configuration name="Unittests in residentialTestCase.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_residentialTestCase_py_(1) - 2019.01.16 at 10h 55m 37s.xml">
+      <configuration name="Unittests in residentialTestCase.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_residentialTestCase_py_(1) - 2019.01.16 at 10h 56m 15s.xml">
+      <configuration name="Unittests in residentialTestCase.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_residentialTestCase_py_(1) - 2019.01.16 at 10h 56m 46s.xml">
+      <configuration name="Unittests in residentialTestCase.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_buildingTestCase_py - 2019.01.16 at 10h 58m 18s.xml">
+      <configuration name="Unittests in buildingTestCase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unitTestCase_py - 2019.01.16 at 10h 58m 29s.xml">
+      <configuration name="Unittests in unitTestCase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_addHouseTestCase_py - 2019.01.16 at 11h 00m 22s.xml">
+      <configuration name="Unittests in addHouseTestCase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_addHouseTestCase_py - 2019.01.16 at 11h 01m 50s.xml">
+      <configuration name="Unittests in addHouseTestCase.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.61911553" visible="true" weight="0.21801706" />
+      <window_info id="Structure" order="1" sideWeight="0.38088444" side_tool="true" weight="0.21801706" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6066098" visible="true" weight="0.23101953" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.3362256" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.3286334" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.39339018" side_tool="true" weight="0.5368764" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968238" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49520257" weight="0.26030368" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="4" weight="0.02771855" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.21801706" />
+      <window_info id="Structure" order="1" sideWeight="0.50140846" side_tool="true" weight="0.21588486" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6066098" visible="true" weight="0.23644252" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.3362256" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.3286334" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.39339018" side_tool="true" weight="0.5368764" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968238" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49520257" weight="0.26030368" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="4" weight="0.02771855" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iszErpRequest/houseDevelopRequest.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iszErpRequest/houseDevelopRequest.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iszErpRequest/houseDevelopRequest.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iszErpRequest/houseDevelopRequest.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iszErpRequest/apartmentContractRequest.py</url>
+          <line>251</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/script/mysql_production.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/script/duan_zu_house.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/script/duan_zu_house.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/script/duan_zu_house.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/script/duan_zu_house.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/script/duan_zu_house.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iszErpRequest/houseContractRequest.py</url>
+          <line>531</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PyQt5-master/Chapter11/fundFOF.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt_demo/finance_sys/client/main_ui.py</url>
+          <line>527</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt_demo/finance_sys/client/main_ui.py</url>
+          <line>524</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt_demo/finance_sys/client/main_ui.py</url>
+          <line>510</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt_demo/finance_sys/client/main_ui.py</url>
+          <line>513</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt_demo/finance_sys/client/main_ui.py</url>
+          <line>472</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt_demo/finance_sys/client/main_ui.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt_demo/finance_sys/client/main_ui.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt_demo/finance_sys/client/main_ui.py</url>
+          <line>213</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt_demo/finance_sys/client/main_ui.py</url>
+          <line>214</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt_demo/finance_sys/client/main_ui.py</url>
+          <line>247</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt_demo/finance_sys/client/run.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt_demo/finance_sys/client/run.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoRequestDemo/testCase/residential/testCaseResidential.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoRequestDemo/testCase/residential/testCaseResidential.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoRequestDemo/common/base.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoRequestDemo/testCase/residential/testCaseResidential.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoRequestDemo/testCase/residential/testCaseResidential.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoRequestDemo/testCase/residential/testCaseResidential.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoRequestDemo/testCase/residential/testCaseResidential.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoRequestDemo/common/base.py</url>
+          <line>333</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoRequestDemo/common/base.py</url>
+          <line>334</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoRequestDemo/common/base.py</url>
+          <line>335</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoRequestDemo/common/base.py</url>
+          <line>336</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classDemo/myConfigparser.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interface_test-master-1369d0a86257eb4a534b33ae6628b98aff78a3a3/backend/common/sql.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classDemo/myMongoDB.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classDemo/myMongoDB.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classDemo/myEmail.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classDemo/myEmail.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classDemo/myEmail.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classDemo/myEmail.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classDemo/myEmail.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sysDemo/run_sys.py</url>
+          <line>479</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sysDemo/run_sys.py</url>
+          <line>478</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sysDemo/run_sys.py</url>
+          <line>499</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sysDemo/run_sys.py</url>
+          <line>505</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sysDemo/run_sys.py</url>
+          <line>511</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sysDemo/run_sys.py</url>
+          <line>327</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sysDemo/run_sys.py</url>
+          <line>326</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sysDemo/run_sys.py</url>
+          <line>324</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sysDemo/run_sys.py</url>
+          <line>325</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sysDemo/run_sys.py</url>
+          <line>302</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sysDemo/client/updateFinancialFlowPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classDemo/2019-01-16 11_23_21resourceTransfer.html" />
+    <entry file="file://$PROJECT_DIR$/classDemo/test" />
+    <entry file="file://$PROJECT_DIR$/../Lib/email/message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="363" selection-start-line="363" selection-end-line="363" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classDemo/myEmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#96#111#0" expanded="true" />
+            <marker date="1547620200270" expanded="true" signature="303:2483" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classDemo/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/house/addHouseTestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/HTMLTestReportCN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12138">
+          <caret line="584" column="20" selection-start-line="584" selection-start-column="20" selection-end-line="584" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/house/2019-01-16 16_13_47resourceTransfer.html" />
+    <entry file="file://$PROJECT_DIR$/../Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6363">
+          <caret line="304" column="51" selection-start-line="304" selection-start-column="51" selection-end-line="304" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iszErpRequest/financeRequest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iszErpRequest/houseContractRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="1588" column="14" lean-forward="true" selection-start-line="1420" selection-start-column="8" selection-end-line="1588" selection-end-column="14" />
+          <folding>
+            <element signature="e#86#128#0" expanded="true" />
+            <element signature="e#1654#22536#0" />
+            <element signature="e#22586#44650#0" />
+            <element signature="e#44715#61042#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classDemo/loginRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classDemo/myConfigparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/conf.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/client/updateCreditCardPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="93" column="59" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="59" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lib/site-packages/PyQt5/QtWidgets/QApplication.py" />
+    <entry file="file://$PROJECT_DIR$/../auditHouseContract.py" />
+    <entry file="file://D:/PythonProject/python_flask/venv/Lib/site-packages/PyQt5/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/client/updateCapitalInfoPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="52" column="124" selection-start-line="52" selection-start-column="124" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classDemo/myMongoDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="9" selection-start-line="9" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="e#97#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lib/site-packages/PyQt5/QtCore/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../Lib/site-packages/PyQt5/QtCore/pyqtBoundSignal.py" />
+    <entry file="file://$PROJECT_DIR$/2019-01autotest.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/run.spec" />
+    <entry file="file://$PROJECT_DIR$/classDemo/getCookie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iszErpRequest/ES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/service/financialFlowRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="41" column="145" selection-start-line="41" selection-start-column="145" selection-end-line="41" selection-end-column="145" />
+          <folding>
+            <element signature="e#46#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classDemo/myRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/house/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="23" column="20" selection-start-line="23" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/residential/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/audit.py" />
+    <entry file="file://$PROJECT_DIR$/sysDemo/auditHouseContract.spec" />
+    <entry file="file://$PROJECT_DIR$/sysDemo/client/runProjectPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="e#102#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/tool_ui_py.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iszErpRequest/auditHouseContract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="1181" column="21" selection-start-line="1181" selection-end-line="1182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1605436205/PyQt5/QtWidgets/QWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1605436205/PyQt5/QtWidgets/QTabWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/client/test_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1284">
+          <caret line="101" selection-start-line="101" selection-end-line="108" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/caidanlan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="40" selection-start-line="29" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/test_add_data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/service/creditCardRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#146#751#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/service/testDemoRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#127#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/service/financialRepaymentRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <element signature="e#185#2777#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/service/keywordRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#102#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/run_sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+            <element signature="e#8214#13851#0" />
+            <element signature="e#8917#14554#0" />
+            <element signature="e#14603#15175#0" />
+            <marker date="1548641906645" expanded="true" signature="6244:14131" ph="..." />
+            <marker date="1548641906645" expanded="true" signature="14449:14455" ph="..." />
+            <marker date="1548641906645" expanded="true" signature="26519:26524" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/residential/residentialTestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iszErpRequest/residentialRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="116" column="34" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysDemo/client/allUi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="245" column="64" lean-forward="true" selection-start-line="245" selection-start-column="53" selection-end-line="245" selection-end-column="64" />
+          <folding>
+            <element signature="e#3100#16481#0" />
+            <marker date="1548653757006" expanded="true" signature="16700:29876" ph="..." />
+            <marker date="1548653757006" expanded="true" signature="29912:40972" ph="..." />
+            <marker date="1548653757006" expanded="true" signature="41048:41057" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

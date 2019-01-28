@@ -1,0 +1,1278 @@
+# -*- coding: utf-8 -*-
+# @Time   : 2019/1/17 13:27
+# @Author : linglong
+# @File   : auditHouseContract.py
+import json
+import os
+import subprocess
+import sys
+from datetime import time
+from PyQt5 import QtCore, QtGui, QtWidgets
+import pymongo
+import requests
+from PyQt5.QtGui import QFont
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLineEdit, QMessageBox
+import execjs
+
+
+
+# 获取cookie
+class NewMongDB(object):
+    """没有具体的应用场景,先设置基本的连接和单表排序的查询"""
+
+    def __init__(self, phone):
+        self.mgConn = pymongo.MongoClient('mongodb://root:Ishangzu_mongodb@192.168.0.200:27020/')
+        self.phone = phone
+
+    def db_find(self):
+        self.mgDB = self.mgConn.sms.smsMtHis  # 指定库名,表名。
+        for i in range(60):
+            result = self.mgDB.find({"destPhone": self.phone, "template_key": "login_safety_system", }).sort(
+                [("create_time", -1)]).limit(1)
+            for results in result:
+                try:
+                    # print(results['content'])
+                    return results['content'][24:28]
+                except:
+                    time.sleep(1)
+                    pass
+        return
+
+
+def getCpuID():
+    """
+    获取当前电脑ProcessorID
+    :return: ProcessorID
+    """
+    p = subprocess.check_output('wmic CPU get ProcessorID')
+    ProcessorID = str(p).split('\\r\\r\\n')[1].strip()
+    return ProcessorID
+
+
+def getMAC():
+    """
+    获取当前电脑的物理地址
+    :return:物理地址
+    """
+    p = subprocess.check_output('getmac')
+    return p.decode('gbk')[154:171]
+
+
+def getAuthKey():
+    """
+    获取ERP客户端验证码
+    :return: 客户端登录校验码
+    """
+    os.environ["NODE_PATH"] = os.getcwd() + "\\node_modules"
+    parser = execjs.compile("""
+            function strEnc(data,firstKey,secondKey,thirdKey){
+
+             var leng = data.length;
+             var encData = "";
+             var firstKeyBt,secondKeyBt,thirdKeyBt,firstLength,secondLength,thirdLength;
+             if(firstKey != null && firstKey != ""){
+               firstKeyBt = getKeyBytes(firstKey);
+               firstLength = firstKeyBt.length;
+             }
+             if(secondKey != null && secondKey != ""){
+               secondKeyBt = getKeyBytes(secondKey);
+               secondLength = secondKeyBt.length;
+             }
+             if(thirdKey != null && thirdKey != ""){
+               thirdKeyBt = getKeyBytes(thirdKey);
+               thirdLength = thirdKeyBt.length;
+             }
+
+             if(leng > 0){
+               if(leng < 4){
+                 var bt = strToBt(data);
+                 var encByte ;
+                 if(firstKey != null && firstKey !="" && secondKey != null && secondKey != "" && thirdKey != null && thirdKey != ""){
+                   var tempBt;
+                   var x,y,z;
+                   tempBt = bt;
+                   for(x = 0;x < firstLength ;x ++){
+                     tempBt = enc(tempBt,firstKeyBt[x]);
+                   }
+                   for(y = 0;y < secondLength ;y ++){
+                     tempBt = enc(tempBt,secondKeyBt[y]);
+                   }
+                   for(z = 0;z < thirdLength ;z ++){
+                     tempBt = enc(tempBt,thirdKeyBt[z]);
+                   }
+                   encByte = tempBt;
+                 }else{
+                   if(firstKey != null && firstKey !="" && secondKey != null && secondKey != ""){
+                     var tempBt;
+                     var x,y;
+                     tempBt = bt;
+                     for(x = 0;x < firstLength ;x ++){
+                       tempBt = enc(tempBt,firstKeyBt[x]);
+                     }
+                     for(y = 0;y < secondLength ;y ++){
+                       tempBt = enc(tempBt,secondKeyBt[y]);
+                     }
+                     encByte = tempBt;
+                   }else{
+                     if(firstKey != null && firstKey !=""){
+                       var tempBt;
+                       var x = 0;
+                       tempBt = bt;
+                       for(x = 0;x < firstLength ;x ++){
+                         tempBt = enc(tempBt,firstKeyBt[x]);
+                       }
+                       encByte = tempBt;
+                     }
+                   }
+                 }
+                 encData = bt64ToHex(encByte);
+               }else{
+                 var iterator = parseInt(leng/4);
+                 var remainder = leng%4;
+                 var i=0;
+                 for(i = 0;i < iterator;i++){
+                   var tempData = data.substring(i*4+0,i*4+4);
+                   var tempByte = strToBt(tempData);
+                   var encByte ;
+                   if(firstKey != null && firstKey !="" && secondKey != null && secondKey != "" && thirdKey != null && thirdKey != ""){
+                     var tempBt;
+                     var x,y,z;
+                     tempBt = tempByte;
+                     for(x = 0;x < firstLength ;x ++){
+                       tempBt = enc(tempBt,firstKeyBt[x]);
+                     }
+                     for(y = 0;y < secondLength ;y ++){
+                       tempBt = enc(tempBt,secondKeyBt[y]);
+                     }
+                     for(z = 0;z < thirdLength ;z ++){
+                       tempBt = enc(tempBt,thirdKeyBt[z]);
+                     }
+                     encByte = tempBt;
+                   }else{
+                     if(firstKey != null && firstKey !="" && secondKey != null && secondKey != ""){
+                       var tempBt;
+                       var x,y;
+                       tempBt = tempByte;
+                       for(x = 0;x < firstLength ;x ++){
+                         tempBt = enc(tempBt,firstKeyBt[x]);
+                       }
+                       for(y = 0;y < secondLength ;y ++){
+                         tempBt = enc(tempBt,secondKeyBt[y]);
+                       }
+                       encByte = tempBt;
+                     }else{
+                       if(firstKey != null && firstKey !=""){
+                         var tempBt;
+                         var x;
+                         tempBt = tempByte;
+                         for(x = 0;x < firstLength ;x ++){
+                           tempBt = enc(tempBt,firstKeyBt[x]);
+                         }
+                         encByte = tempBt;
+                       }
+                     }
+                   }
+                   encData += bt64ToHex(encByte);
+                 }
+                 if(remainder > 0){
+                   var remainderData = data.substring(iterator*4+0,leng);
+                   var tempByte = strToBt(remainderData);
+                   var encByte ;
+                   if(firstKey != null && firstKey !="" && secondKey != null && secondKey != "" && thirdKey != null && thirdKey != ""){
+                     var tempBt;
+                     var x,y,z;
+                     tempBt = tempByte;
+                     for(x = 0;x < firstLength ;x ++){
+                       tempBt = enc(tempBt,firstKeyBt[x]);
+                     }
+                     for(y = 0;y < secondLength ;y ++){
+                       tempBt = enc(tempBt,secondKeyBt[y]);
+                     }
+                     for(z = 0;z < thirdLength ;z ++){
+                       tempBt = enc(tempBt,thirdKeyBt[z]);
+                     }
+                     encByte = tempBt;
+                   }else{
+                     if(firstKey != null && firstKey !="" && secondKey != null && secondKey != ""){
+                       var tempBt;
+                       var x,y;
+                       tempBt = tempByte;
+                       for(x = 0;x < firstLength ;x ++){
+                         tempBt = enc(tempBt,firstKeyBt[x]);
+                       }
+                       for(y = 0;y < secondLength ;y ++){
+                         tempBt = enc(tempBt,secondKeyBt[y]);
+                       }
+                       encByte = tempBt;
+                     }else{
+                       if(firstKey != null && firstKey !=""){
+                         var tempBt;
+                         var x;
+                         tempBt = tempByte;
+                         for(x = 0;x < firstLength ;x ++){
+                           tempBt = enc(tempBt,firstKeyBt[x]);
+                         }
+                         encByte = tempBt;
+                       }
+                     }
+                   }
+                   encData += bt64ToHex(encByte);
+                 }
+               }
+             }
+             return encData;
+            }
+
+            /*
+            * decrypt the encrypted string to the original string
+            *
+            * return  the original string
+            */
+            function strDec(data,firstKey,secondKey,thirdKey){
+             var leng = data.length;
+             var decStr = "";
+             var firstKeyBt,secondKeyBt,thirdKeyBt,firstLength,secondLength,thirdLength;
+             if(firstKey != null && firstKey != ""){
+               firstKeyBt = getKeyBytes(firstKey);
+               firstLength = firstKeyBt.length;
+             }
+             if(secondKey != null && secondKey != ""){
+               secondKeyBt = getKeyBytes(secondKey);
+               secondLength = secondKeyBt.length;
+             }
+             if(thirdKey != null && thirdKey != ""){
+               thirdKeyBt = getKeyBytes(thirdKey);
+               thirdLength = thirdKeyBt.length;
+             }
+
+             var iterator = parseInt(leng/16);
+             var i=0;
+             for(i = 0;i < iterator;i++){
+               var tempData = data.substring(i*16+0,i*16+16);
+               var strByte = hexToBt64(tempData);
+               var intByte = new Array(64);
+               var j = 0;
+               for(j = 0;j < 64; j++){
+                 intByte[j] = parseInt(strByte.substring(j,j+1));
+               }
+               var decByte;
+               if(firstKey != null && firstKey !="" && secondKey != null && secondKey != "" && thirdKey != null && thirdKey != ""){
+                 var tempBt;
+                 var x,y,z;
+                 tempBt = intByte;
+                 for(x = thirdLength - 1;x >= 0;x --){
+                   tempBt = dec(tempBt,thirdKeyBt[x]);
+                 }
+                 for(y = secondLength - 1;y >= 0;y --){
+                   tempBt = dec(tempBt,secondKeyBt[y]);
+                 }
+                 for(z = firstLength - 1;z >= 0 ;z --){
+                   tempBt = dec(tempBt,firstKeyBt[z]);
+                 }
+                 decByte = tempBt;
+               }else{
+                 if(firstKey != null && firstKey !="" && secondKey != null && secondKey != ""){
+                   var tempBt;
+                   var x,y,z;
+                   tempBt = intByte;
+                   for(x = secondLength - 1;x >= 0 ;x --){
+                     tempBt = dec(tempBt,secondKeyBt[x]);
+                   }
+                   for(y = firstLength - 1;y >= 0 ;y --){
+                     tempBt = dec(tempBt,firstKeyBt[y]);
+                   }
+                   decByte = tempBt;
+                 }else{
+                   if(firstKey != null && firstKey !=""){
+                     var tempBt;
+                     var x,y,z;
+                     tempBt = intByte;
+                     for(x = firstLength - 1;x >= 0 ;x --){
+                       tempBt = dec(tempBt,firstKeyBt[x]);
+                     }
+                     decByte = tempBt;
+                   }
+                 }
+               }
+               decStr += byteToString(decByte);
+             }
+             return decStr;
+            }
+            /*
+            * chang the string into the bit array
+            *
+            * return bit array(it's length % 64 = 0)
+            */
+            function getKeyBytes(key){
+             var keyBytes = new Array();
+             var leng = key.length;
+             var iterator = parseInt(leng/4);
+             var remainder = leng%4;
+             var i = 0;
+             for(i = 0;i < iterator; i ++){
+               keyBytes[i] = strToBt(key.substring(i*4+0,i*4+4));
+             }
+             if(remainder > 0){
+               keyBytes[i] = strToBt(key.substring(i*4+0,leng));
+             }
+             return keyBytes;
+            }
+
+            /*
+            * chang the string(it's length <= 4) into the bit array
+            *
+            * return bit array(it's length = 64)
+            */
+            function strToBt(str){
+             var leng = str.length;
+             var bt = new Array(64);
+             if(leng < 4){
+               var i=0,j=0,p=0,q=0;
+               for(i = 0;i<leng;i++){
+                 var k = str.charCodeAt(i);
+                 for(j=0;j<16;j++){
+                   var pow=1,m=0;
+                   for(m=15;m>j;m--){
+                     pow *= 2;
+                   }
+                   bt[16*i+j]=parseInt(k/pow)%2;
+                 }
+               }
+               for(p = leng;p<4;p++){
+                 var k = 0;
+                 for(q=0;q<16;q++){
+                   var pow=1,m=0;
+                   for(m=15;m>q;m--){
+                     pow *= 2;
+                   }
+                   bt[16*p+q]=parseInt(k/pow)%2;
+                 }
+               }
+             }else{
+               for(i = 0;i<4;i++){
+                 var k = str.charCodeAt(i);
+                 for(j=0;j<16;j++){
+                   var pow=1;
+                   for(m=15;m>j;m--){
+                     pow *= 2;
+                   }
+                   bt[16*i+j]=parseInt(k/pow)%2;
+                 }
+               }
+             }
+             return bt;
+            }
+
+            /*
+            * chang the bit(it's length = 4) into the hex
+            *
+            * return hex
+            */
+            function bt4ToHex(binary) {
+             var hex;
+             switch (binary) {
+               case "0000" : hex = "0"; break;
+               case "0001" : hex = "1"; break;
+               case "0010" : hex = "2"; break;
+               case "0011" : hex = "3"; break;
+               case "0100" : hex = "4"; break;
+               case "0101" : hex = "5"; break;
+               case "0110" : hex = "6"; break;
+               case "0111" : hex = "7"; break;
+               case "1000" : hex = "8"; break;
+               case "1001" : hex = "9"; break;
+               case "1010" : hex = "A"; break;
+               case "1011" : hex = "B"; break;
+               case "1100" : hex = "C"; break;
+               case "1101" : hex = "D"; break;
+               case "1110" : hex = "E"; break;
+               case "1111" : hex = "F"; break;
+             }
+             return hex;
+            }
+
+            /*
+            * chang the hex into the bit(it's length = 4)
+            *
+            * return the bit(it's length = 4)
+            */
+            function hexToBt4(hex) {
+             var binary;
+             switch (hex) {
+               case "0" : binary = "0000"; break;
+               case "1" : binary = "0001"; break;
+               case "2" : binary = "0010"; break;
+               case "3" : binary = "0011"; break;
+               case "4" : binary = "0100"; break;
+               case "5" : binary = "0101"; break;
+               case "6" : binary = "0110"; break;
+               case "7" : binary = "0111"; break;
+               case "8" : binary = "1000"; break;
+               case "9" : binary = "1001"; break;
+               case "A" : binary = "1010"; break;
+               case "B" : binary = "1011"; break;
+               case "C" : binary = "1100"; break;
+               case "D" : binary = "1101"; break;
+               case "E" : binary = "1110"; break;
+               case "F" : binary = "1111"; break;
+             }
+             return binary;
+            }
+
+            /*
+            * chang the bit(it's length = 64) into the string
+            *
+            * return string
+            */
+            function byteToString(byteData){
+             var str="";
+             for(i = 0;i<4;i++){
+               var count=0;
+               for(j=0;j<16;j++){
+                 var pow=1;
+                 for(m=15;m>j;m--){
+                   pow*=2;
+                 }
+                 count+=byteData[16*i+j]*pow;
+               }
+               if(count != 0){
+                 str+=String.fromCharCode(count);
+               }
+             }
+             return str;
+            }
+
+            function bt64ToHex(byteData){
+             var hex = "";
+             for(i = 0;i<16;i++){
+               var bt = "";
+               for(j=0;j<4;j++){
+                 bt += byteData[i*4+j];
+               }
+               hex+=bt4ToHex(bt);
+             }
+             return hex;
+            }
+
+            function hexToBt64(hex){
+             var binary = "";
+             for(i = 0;i<16;i++){
+               binary+=hexToBt4(hex.substring(i,i+1));
+             }
+             return binary;
+            }
+
+            /*
+            * the 64 bit des core arithmetic
+            */
+
+            function enc(dataByte,keyByte){
+             var keys = generateKeys(keyByte);
+             var ipByte   = initPermute(dataByte);
+             var ipLeft   = new Array(32);
+             var ipRight  = new Array(32);
+             var tempLeft = new Array(32);
+             var i = 0,j = 0,k = 0,m = 0, n = 0;
+             for(k = 0;k < 32;k ++){
+               ipLeft[k] = ipByte[k];
+               ipRight[k] = ipByte[32+k];
+             }
+             for(i = 0;i < 16;i ++){
+               for(j = 0;j < 32;j ++){
+                 tempLeft[j] = ipLeft[j];
+                 ipLeft[j] = ipRight[j];
+               }
+               var key = new Array(48);
+               for(m = 0;m < 48;m ++){
+                 key[m] = keys[i][m];
+               }
+               var  tempRight = xor(pPermute(sBoxPermute(xor(expandPermute(ipRight),key))), tempLeft);
+               for(n = 0;n < 32;n ++){
+                 ipRight[n] = tempRight[n];
+               }
+
+             }
+
+
+             var finalData =new Array(64);
+             for(i = 0;i < 32;i ++){
+               finalData[i] = ipRight[i];
+               finalData[32+i] = ipLeft[i];
+             }
+             return finallyPermute(finalData);
+            }
+
+            function dec(dataByte,keyByte){
+             var keys = generateKeys(keyByte);
+             var ipByte   = initPermute(dataByte);
+             var ipLeft   = new Array(32);
+             var ipRight  = new Array(32);
+             var tempLeft = new Array(32);
+             var i = 0,j = 0,k = 0,m = 0, n = 0;
+             for(k = 0;k < 32;k ++){
+               ipLeft[k] = ipByte[k];
+               ipRight[k] = ipByte[32+k];
+             }
+             for(i = 15;i >= 0;i --){
+               for(j = 0;j < 32;j ++){
+                 tempLeft[j] = ipLeft[j];
+                 ipLeft[j] = ipRight[j];
+               }
+               var key = new Array(48);
+               for(m = 0;m < 48;m ++){
+                 key[m] = keys[i][m];
+               }
+
+               var  tempRight = xor(pPermute(sBoxPermute(xor(expandPermute(ipRight),key))), tempLeft);
+               for(n = 0;n < 32;n ++){
+                 ipRight[n] = tempRight[n];
+               }
+             }
+
+
+             var finalData =new Array(64);
+             for(i = 0;i < 32;i ++){
+               finalData[i] = ipRight[i];
+               finalData[32+i] = ipLeft[i];
+             }
+             return finallyPermute(finalData);
+            }
+
+            function initPermute(originalData){
+             var ipByte = new Array(64);
+             for (i = 0, m = 1, n = 0; i < 4; i++, m += 2, n += 2) {
+               for (j = 7, k = 0; j >= 0; j--, k++) {
+                 ipByte[i * 8 + k] = originalData[j * 8 + m];
+                 ipByte[i * 8 + k + 32] = originalData[j * 8 + n];
+               }
+             }
+             return ipByte;
+            }
+
+            function expandPermute(rightData){
+             var epByte = new Array(48);
+             for (i = 0; i < 8; i++) {
+               if (i == 0) {
+                 epByte[i * 6 + 0] = rightData[31];
+               } else {
+                 epByte[i * 6 + 0] = rightData[i * 4 - 1];
+               }
+               epByte[i * 6 + 1] = rightData[i * 4 + 0];
+               epByte[i * 6 + 2] = rightData[i * 4 + 1];
+               epByte[i * 6 + 3] = rightData[i * 4 + 2];
+               epByte[i * 6 + 4] = rightData[i * 4 + 3];
+               if (i == 7) {
+                 epByte[i * 6 + 5] = rightData[0];
+               } else {
+                 epByte[i * 6 + 5] = rightData[i * 4 + 4];
+               }
+             }
+             return epByte;
+            }
+
+            function xor(byteOne,byteTwo){
+             var xorByte = new Array(byteOne.length);
+             for(i = 0;i < byteOne.length; i ++){
+               xorByte[i] = byteOne[i] ^ byteTwo[i];
+             }
+             return xorByte;
+            }
+
+            function sBoxPermute(expandByte){
+
+               var sBoxByte = new Array(32);
+               var binary = "";
+               var s1 = [
+                   [14, 4, 13, 1, 2, 15, 11, 8, 3, 10, 6, 12, 5, 9, 0, 7],
+                   [0, 15, 7, 4, 14, 2, 13, 1, 10, 6, 12, 11, 9, 5, 3, 8],
+                   [4, 1, 14, 8, 13, 6, 2, 11, 15, 12, 9, 7, 3, 10, 5, 0],
+                   [15, 12, 8, 2, 4, 9, 1, 7, 5, 11, 3, 14, 10, 0, 6, 13 ]];
+
+                   /* Table - s2 */
+               var s2 = [
+                   [15, 1, 8, 14, 6, 11, 3, 4, 9, 7, 2, 13, 12, 0, 5, 10],
+                   [3, 13, 4, 7, 15, 2, 8, 14, 12, 0, 1, 10, 6, 9, 11, 5],
+                   [0, 14, 7, 11, 10, 4, 13, 1, 5, 8, 12, 6, 9, 3, 2, 15],
+                   [13, 8, 10, 1, 3, 15, 4, 2, 11, 6, 7, 12, 0, 5, 14, 9 ]];
+
+                   /* Table - s3 */
+               var s3= [
+                   [10, 0, 9, 14, 6, 3, 15, 5, 1, 13, 12, 7, 11, 4, 2, 8],
+                   [13, 7, 0, 9, 3, 4, 6, 10, 2, 8, 5, 14, 12, 11, 15, 1],
+                   [13, 6, 4, 9, 8, 15, 3, 0, 11, 1, 2, 12, 5, 10, 14, 7],
+                   [1, 10, 13, 0, 6, 9, 8, 7, 4, 15, 14, 3, 11, 5, 2, 12 ]];
+                   /* Table - s4 */
+               var s4 = [
+                   [7, 13, 14, 3, 0, 6, 9, 10, 1, 2, 8, 5, 11, 12, 4, 15],
+                   [13, 8, 11, 5, 6, 15, 0, 3, 4, 7, 2, 12, 1, 10, 14, 9],
+                   [10, 6, 9, 0, 12, 11, 7, 13, 15, 1, 3, 14, 5, 2, 8, 4],
+                   [3, 15, 0, 6, 10, 1, 13, 8, 9, 4, 5, 11, 12, 7, 2, 14 ]];
+
+                   /* Table - s5 */
+               var s5 = [
+                   [2, 12, 4, 1, 7, 10, 11, 6, 8, 5, 3, 15, 13, 0, 14, 9],
+                   [14, 11, 2, 12, 4, 7, 13, 1, 5, 0, 15, 10, 3, 9, 8, 6],
+                   [4, 2, 1, 11, 10, 13, 7, 8, 15, 9, 12, 5, 6, 3, 0, 14],
+                   [11, 8, 12, 7, 1, 14, 2, 13, 6, 15, 0, 9, 10, 4, 5, 3 ]];
+
+                   /* Table - s6 */
+               var s6 = [
+                   [12, 1, 10, 15, 9, 2, 6, 8, 0, 13, 3, 4, 14, 7, 5, 11],
+                   [10, 15, 4, 2, 7, 12, 9, 5, 6, 1, 13, 14, 0, 11, 3, 8],
+                   [9, 14, 15, 5, 2, 8, 12, 3, 7, 0, 4, 10, 1, 13, 11, 6],
+                   [4, 3, 2, 12, 9, 5, 15, 10, 11, 14, 1, 7, 6, 0, 8, 13 ]];
+
+                   /* Table - s7 */
+               var s7 = [
+                   [4, 11, 2, 14, 15, 0, 8, 13, 3, 12, 9, 7, 5, 10, 6, 1],
+                   [13, 0, 11, 7, 4, 9, 1, 10, 14, 3, 5, 12, 2, 15, 8, 6],
+                   [1, 4, 11, 13, 12, 3, 7, 14, 10, 15, 6, 8, 0, 5, 9, 2],
+                   [6, 11, 13, 8, 1, 4, 10, 7, 9, 5, 0, 15, 14, 2, 3, 12]];
+
+                   /* Table - s8 */
+               var s8 = [
+                   [13, 2, 8, 4, 6, 15, 11, 1, 10, 9, 3, 14, 5, 0, 12, 7],
+                   [1, 15, 13, 8, 10, 3, 7, 4, 12, 5, 6, 11, 0, 14, 9, 2],
+                   [7, 11, 4, 1, 9, 12, 14, 2, 0, 6, 10, 13, 15, 3, 5, 8],
+                   [2, 1, 14, 7, 4, 10, 8, 13, 15, 12, 9, 0, 3, 5, 6, 11]];
+
+               for(m=0;m<8;m++){
+               var i=0,j=0;
+               i = expandByte[m*6+0]*2+expandByte[m*6+5];
+               j = expandByte[m * 6 + 1] * 2 * 2 * 2
+                 + expandByte[m * 6 + 2] * 2* 2
+                 + expandByte[m * 6 + 3] * 2
+                 + expandByte[m * 6 + 4];
+               switch (m) {
+                 case 0 :
+                   binary = getBoxBinary(s1[i][j]);
+                   break;
+                 case 1 :
+                   binary = getBoxBinary(s2[i][j]);
+                   break;
+                 case 2 :
+                   binary = getBoxBinary(s3[i][j]);
+                   break;
+                 case 3 :
+                   binary = getBoxBinary(s4[i][j]);
+                   break;
+                 case 4 :
+                   binary = getBoxBinary(s5[i][j]);
+                   break;
+                 case 5 :
+                   binary = getBoxBinary(s6[i][j]);
+                   break;
+                 case 6 :
+                   binary = getBoxBinary(s7[i][j]);
+                   break;
+                 case 7 :
+                   binary = getBoxBinary(s8[i][j]);
+                   break;
+               }
+               sBoxByte[m*4+0] = parseInt(binary.substring(0,1));
+               sBoxByte[m*4+1] = parseInt(binary.substring(1,2));
+               sBoxByte[m*4+2] = parseInt(binary.substring(2,3));
+               sBoxByte[m*4+3] = parseInt(binary.substring(3,4));
+             }
+             return sBoxByte;
+            }
+
+            function pPermute(sBoxByte){
+             var pBoxPermute = new Array(32);
+             pBoxPermute[ 0] = sBoxByte[15];
+             pBoxPermute[ 1] = sBoxByte[ 6];
+             pBoxPermute[ 2] = sBoxByte[19];
+             pBoxPermute[ 3] = sBoxByte[20];
+             pBoxPermute[ 4] = sBoxByte[28];
+             pBoxPermute[ 5] = sBoxByte[11];
+             pBoxPermute[ 6] = sBoxByte[27];
+             pBoxPermute[ 7] = sBoxByte[16];
+             pBoxPermute[ 8] = sBoxByte[ 0];
+             pBoxPermute[ 9] = sBoxByte[14];
+             pBoxPermute[10] = sBoxByte[22];
+             pBoxPermute[11] = sBoxByte[25];
+             pBoxPermute[12] = sBoxByte[ 4];
+             pBoxPermute[13] = sBoxByte[17];
+             pBoxPermute[14] = sBoxByte[30];
+             pBoxPermute[15] = sBoxByte[ 9];
+             pBoxPermute[16] = sBoxByte[ 1];
+             pBoxPermute[17] = sBoxByte[ 7];
+             pBoxPermute[18] = sBoxByte[23];
+             pBoxPermute[19] = sBoxByte[13];
+             pBoxPermute[20] = sBoxByte[31];
+             pBoxPermute[21] = sBoxByte[26];
+             pBoxPermute[22] = sBoxByte[ 2];
+             pBoxPermute[23] = sBoxByte[ 8];
+             pBoxPermute[24] = sBoxByte[18];
+             pBoxPermute[25] = sBoxByte[12];
+             pBoxPermute[26] = sBoxByte[29];
+             pBoxPermute[27] = sBoxByte[ 5];
+             pBoxPermute[28] = sBoxByte[21];
+             pBoxPermute[29] = sBoxByte[10];
+             pBoxPermute[30] = sBoxByte[ 3];
+             pBoxPermute[31] = sBoxByte[24];
+             return pBoxPermute;
+            }
+
+            function finallyPermute(endByte){
+             var fpByte = new Array(64);
+             fpByte[ 0] = endByte[39];
+             fpByte[ 1] = endByte[ 7];
+             fpByte[ 2] = endByte[47];
+             fpByte[ 3] = endByte[15];
+             fpByte[ 4] = endByte[55];
+             fpByte[ 5] = endByte[23];
+             fpByte[ 6] = endByte[63];
+             fpByte[ 7] = endByte[31];
+             fpByte[ 8] = endByte[38];
+             fpByte[ 9] = endByte[ 6];
+             fpByte[10] = endByte[46];
+             fpByte[11] = endByte[14];
+             fpByte[12] = endByte[54];
+             fpByte[13] = endByte[22];
+             fpByte[14] = endByte[62];
+             fpByte[15] = endByte[30];
+             fpByte[16] = endByte[37];
+             fpByte[17] = endByte[ 5];
+             fpByte[18] = endByte[45];
+             fpByte[19] = endByte[13];
+             fpByte[20] = endByte[53];
+             fpByte[21] = endByte[21];
+             fpByte[22] = endByte[61];
+             fpByte[23] = endByte[29];
+             fpByte[24] = endByte[36];
+             fpByte[25] = endByte[ 4];
+             fpByte[26] = endByte[44];
+             fpByte[27] = endByte[12];
+             fpByte[28] = endByte[52];
+             fpByte[29] = endByte[20];
+             fpByte[30] = endByte[60];
+             fpByte[31] = endByte[28];
+             fpByte[32] = endByte[35];
+             fpByte[33] = endByte[ 3];
+             fpByte[34] = endByte[43];
+             fpByte[35] = endByte[11];
+             fpByte[36] = endByte[51];
+             fpByte[37] = endByte[19];
+             fpByte[38] = endByte[59];
+             fpByte[39] = endByte[27];
+             fpByte[40] = endByte[34];
+             fpByte[41] = endByte[ 2];
+             fpByte[42] = endByte[42];
+             fpByte[43] = endByte[10];
+             fpByte[44] = endByte[50];
+             fpByte[45] = endByte[18];
+             fpByte[46] = endByte[58];
+             fpByte[47] = endByte[26];
+             fpByte[48] = endByte[33];
+             fpByte[49] = endByte[ 1];
+             fpByte[50] = endByte[41];
+             fpByte[51] = endByte[ 9];
+             fpByte[52] = endByte[49];
+             fpByte[53] = endByte[17];
+             fpByte[54] = endByte[57];
+             fpByte[55] = endByte[25];
+             fpByte[56] = endByte[32];
+             fpByte[57] = endByte[ 0];
+             fpByte[58] = endByte[40];
+             fpByte[59] = endByte[ 8];
+             fpByte[60] = endByte[48];
+             fpByte[61] = endByte[16];
+             fpByte[62] = endByte[56];
+             fpByte[63] = endByte[24];
+             return fpByte;
+            }
+
+            function getBoxBinary(i) {
+             var binary = "";
+             switch (i) {
+               case 0 :binary = "0000";break;
+               case 1 :binary = "0001";break;
+               case 2 :binary = "0010";break;
+               case 3 :binary = "0011";break;
+               case 4 :binary = "0100";break;
+               case 5 :binary = "0101";break;
+               case 6 :binary = "0110";break;
+               case 7 :binary = "0111";break;
+               case 8 :binary = "1000";break;
+               case 9 :binary = "1001";break;
+               case 10 :binary = "1010";break;
+               case 11 :binary = "1011";break;
+               case 12 :binary = "1100";break;
+               case 13 :binary = "1101";break;
+               case 14 :binary = "1110";break;
+               case 15 :binary = "1111";break;
+             }
+             return binary;
+            }
+            /*
+            * generate 16 keys for xor
+            *
+            */
+            function generateKeys(keyByte){
+             var key   = new Array(56);
+             var keys = new Array();
+
+             keys[ 0] = new Array();
+             keys[ 1] = new Array();
+             keys[ 2] = new Array();
+             keys[ 3] = new Array();
+             keys[ 4] = new Array();
+             keys[ 5] = new Array();
+             keys[ 6] = new Array();
+             keys[ 7] = new Array();
+             keys[ 8] = new Array();
+             keys[ 9] = new Array();
+             keys[10] = new Array();
+             keys[11] = new Array();
+             keys[12] = new Array();
+             keys[13] = new Array();
+             keys[14] = new Array();
+             keys[15] = new Array();
+             var loop = [1,1,2,2,2,2,2,2,1,2,2,2,2,2,2,1];
+
+             for(i=0;i<7;i++){
+               for(j=0,k=7;j<8;j++,k--){
+                 key[i*8+j]=keyByte[8*k+i];
+               }
+             }
+
+             var i = 0;
+             for(i = 0;i < 16;i ++){
+               var tempLeft=0;
+               var tempRight=0;
+               for(j = 0; j < loop[i];j ++){
+                 tempLeft = key[0];
+                 tempRight = key[28];
+                 for(k = 0;k < 27 ;k ++){
+                   key[k] = key[k+1];
+                   key[28+k] = key[29+k];
+                 }
+                 key[27]=tempLeft;
+                 key[55]=tempRight;
+               }
+               var tempKey = new Array(48);
+               tempKey[ 0] = key[13];
+               tempKey[ 1] = key[16];
+               tempKey[ 2] = key[10];
+               tempKey[ 3] = key[23];
+               tempKey[ 4] = key[ 0];
+               tempKey[ 5] = key[ 4];
+               tempKey[ 6] = key[ 2];
+               tempKey[ 7] = key[27];
+               tempKey[ 8] = key[14];
+               tempKey[ 9] = key[ 5];
+               tempKey[10] = key[20];
+               tempKey[11] = key[ 9];
+               tempKey[12] = key[22];
+               tempKey[13] = key[18];
+               tempKey[14] = key[11];
+               tempKey[15] = key[ 3];
+               tempKey[16] = key[25];
+               tempKey[17] = key[ 7];
+               tempKey[18] = key[15];
+               tempKey[19] = key[ 6];
+               tempKey[20] = key[26];
+               tempKey[21] = key[19];
+               tempKey[22] = key[12];
+               tempKey[23] = key[ 1];
+               tempKey[24] = key[40];
+               tempKey[25] = key[51];
+               tempKey[26] = key[30];
+               tempKey[27] = key[36];
+               tempKey[28] = key[46];
+               tempKey[29] = key[54];
+               tempKey[30] = key[29];
+               tempKey[31] = key[39];
+               tempKey[32] = key[50];
+               tempKey[33] = key[44];
+               tempKey[34] = key[32];
+               tempKey[35] = key[47];
+               tempKey[36] = key[43];
+               tempKey[37] = key[48];
+               tempKey[38] = key[38];
+               tempKey[39] = key[55];
+               tempKey[40] = key[33];
+               tempKey[41] = key[52];
+               tempKey[42] = key[45];
+               tempKey[43] = key[41];
+               tempKey[44] = key[49];
+               tempKey[45] = key[35];
+               tempKey[46] = key[28];
+               tempKey[47] = key[31];
+               switch(i){
+                 case 0: for(m=0;m < 48 ;m++){ keys[ 0][m] = tempKey[m]; } break;
+                 case 1: for(m=0;m < 48 ;m++){ keys[ 1][m] = tempKey[m]; } break;
+                 case 2: for(m=0;m < 48 ;m++){ keys[ 2][m] = tempKey[m]; } break;
+                 case 3: for(m=0;m < 48 ;m++){ keys[ 3][m] = tempKey[m]; } break;
+                 case 4: for(m=0;m < 48 ;m++){ keys[ 4][m] = tempKey[m]; } break;
+                 case 5: for(m=0;m < 48 ;m++){ keys[ 5][m] = tempKey[m]; } break;
+                 case 6: for(m=0;m < 48 ;m++){ keys[ 6][m] = tempKey[m]; } break;
+                 case 7: for(m=0;m < 48 ;m++){ keys[ 7][m] = tempKey[m]; } break;
+                 case 8: for(m=0;m < 48 ;m++){ keys[ 8][m] = tempKey[m]; } break;
+                 case 9: for(m=0;m < 48 ;m++){ keys[ 9][m] = tempKey[m]; } break;
+                 case 10: for(m=0;m < 48 ;m++){ keys[10][m] = tempKey[m]; } break;
+                 case 11: for(m=0;m < 48 ;m++){ keys[11][m] = tempKey[m]; } break;
+                 case 12: for(m=0;m < 48 ;m++){ keys[12][m] = tempKey[m]; } break;
+                 case 13: for(m=0;m < 48 ;m++){ keys[13][m] = tempKey[m]; } break;
+                 case 14: for(m=0;m < 48 ;m++){ keys[14][m] = tempKey[m]; } break;
+                 case 15: for(m=0;m < 48 ;m++){ keys[15][m] = tempKey[m]; } break;
+               }
+             }
+             return keys;
+            }
+
+            function test(mac, cpuid) {
+                var machineId = strEnc(mac + cpuid, 'isz', 'isz', 'isz')
+                var time = new Date().getTime()
+                var code = machineId + '*' + time
+                var key = strEnc(code, 'ishangzu', 'ishangzu', 'ishangzu')
+                return key
+            }
+       """)
+    return parser.call('test', getMAC(), getCpuID())
+
+
+def get_cookie(user, pwd):
+    """
+    获取cookie
+    :return:
+    """
+
+    headers = {
+        'content-type': 'application/json',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    }
+
+    # 使用客户端登录
+    # 客户端校验登录接口并获取cookie
+    auth_key = getAuthKey()
+    print('客户端校验登录码：'+auth_key)
+    # 检查授权
+    url = 'http://sys.ishangzu.com/isz_base/LoginAuthController/checkLoginAuth.action'
+    data = {'auth_key': auth_key}
+    results = requests.post(url, data=json.dumps(data), headers=headers)
+    result = json.loads(results.text)
+    print('授权结果：'+str(result))
+    try:
+        if '授权成功' in result['msg']:
+            authTag = result['obj']['authTag']
+        else:
+            return '客户端登录第一步：检查授权失败'
+    except:
+        return result
+
+    # 检查用户名密码
+    url = 'http://sys.ishangzu.com/isz_base/LoginController/checkUserPassWord.action'
+    data = {
+        'auth_code': auth_key,
+        'authTag': authTag,
+        'user_phone': user, 'user_pwd': pwd
+    }
+    results = requests.post(url, data=json.dumps(data), headers=headers)
+    result = json.loads(results.text)
+    print('用户账号密码校验：'+str(result))
+    if '用户名密码正确' not in result['msg']:
+        return '客户端登录第二步：检查用户名密码失败'
+
+    # 获取短信验证码
+    url = 'http://sys.ishangzu.com/isz_base/LoginController/getVerificationCode.action'
+    data = {
+        'authTag': authTag,
+        'mobile': user
+    }
+    results = requests.post(url, data=json.dumps(data), headers=headers)
+    result = json.loads(results.text)
+    print('短信获取结果：'+str(result))
+    if result['msg'] != 'ok' and u'验证码发送过于频繁' not in result['msg']:
+        return '客户端登录第三步：获取短信验证码失败'
+
+    # 验证码登录
+    url = 'http://isz.ishangzu.com/isz_base/LoginController/checkVerificationCode.action'
+    data = {
+        'auth_code': auth_key,
+        'authTag': authTag,
+        'user_phone': user,
+        'user_pwd': pwd,
+        'verificationCode': NewMongDB(user).db_find()
+    }
+
+    response = requests.post(url, data=json.dumps(data), headers=headers)
+    result = json.loads(response.text)
+    print('获取的cookies结果：'+str(result))
+    if result['msg'] == 'ok':
+        cookies = requests.utils.dict_from_cookiejar(response.cookies)
+        cookie = {}
+        cookie['cookies'] = cookies
+        return cookie
+    else:
+        return '客户端登录第四步：验证码登录失败'
+
+
+# 接口方法重写
+class NewRequest(object):
+    def __init__(self, url, data=None, cookie=None):
+        self.headers = {
+            'content-type': 'application/json',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+        }
+        self.url = url
+        self.data = data
+        self.cookie = cookie
+
+    def post(self):
+        """
+        post 请求,如果登录失效,重新登录一次,然后重新请求一次
+        :return:
+        """
+        req = requests.post(
+            url=self.url, headers=self.headers, cookies=self.cookie,
+            data=json.dumps(self.data) if isinstance(self.data, dict) else self.data
+        ).text
+        return json.loads(req)
+
+    def get(self):
+        """
+        get 请求,如果登录失效,重新登录一次,然后重新请求一次
+        :return:
+        """
+        req = requests.get(
+            url=self.url, headers=self.headers, cookies=self.cookie).text
+        return json.loads(req)
+
+    def put(self):
+        """
+        put 请求,如果登录失效,重新登录一次,然后重新请求一次
+        :return:
+        """
+        req = requests.put(
+            url=self.url, headers=self.headers, cookies=self.cookie,
+            data=json.dumps(self.data) if isinstance(self.data, dict) else self.data
+        ).text
+        return json.loads(req)
+
+
+# 审核合同
+class AuditHouseContract():
+    """
+    审核合同
+    """
+
+    def __init__(self, contract_num, house_code, cookie):
+        """
+        初始化
+        :param contract_num:
+        :param house_code:
+        """
+        self.contract_num = contract_num
+        self.house_code = house_code
+        self.cookie = cookie
+
+    def audit(self):
+        # 获取合同contract_id
+        url = "http://erp.ishangzu.com/isz_housecontract/houseContractController/searchHouseContractListByEs"
+        data = {"contract_num": self.contract_num, "residential_name": self.house_code}
+        try:
+            contract_info = NewRequest(url, data, self.cookie).post()['obj']['rows'][0]
+            contract_id = contract_info['contract_id']
+        except BaseException as e:
+            print('根据合同和房源编号查的委托合同数据一条都没。请重新输入')
+            return (str(e)+'根据合同和房源编号查的委托合同数据一条都没')
+
+        try:
+            re = NewRequest(url, data, self.cookie).post()['obj']['rows'][1]
+            print('根据提供的房源编号和委托合同号查出的数据至少有2条，请重新输入')
+            return "根据提供的房源编号和委托合同号查出的数据至少有2条，请重新输入"
+        except:
+            pass
+        # 获取委托合同详情
+        url = "http://erp.ishangzu.com/isz_housecontract/houseContractController/searchHouseContractInfo/" + contract_id
+        details = NewRequest(url, cookie=self.cookie).get()
+        print('获取的委托合同详情：'+str(details))
+        if details['code'] != 0:
+            return details['msg']
+        details = details["obj"]
+
+        # 审第一个页面
+        url = "http://erp.ishangzu.com/isz_housecontract/houseContractController/saveOrUpdateHouseContractDetailByPart"
+        houseContractFrist = {}
+        houseContractFrist["houseContractFrist"] = details["houseContractFrist"]
+        houseContractFrist["entrust_type"] = contract_info['entrust_type']
+        houseContractFrist["house_id"] = contract_info['house_id']
+
+        data = {
+            "auditForm": {
+                "audit_status": "PASS",
+                "content": "同意!"
+            },
+            "action_type": "AUDIT",
+            "save_part": "ONE",
+            "contract_id": contract_id
+        }
+        data.update(houseContractFrist)
+        result = NewRequest(url, data, self.cookie).post()
+        print('审核第一个页面返回结果：'+str(result))
+        if result['code'] != 0:
+            return result['msg']
+
+        # 审第二个页面
+        data = {
+            "auditForm": {
+                "audit_status": "PASS",
+                "content": "同意!"
+            },
+            "action_type": "AUDIT",
+            "save_part": "TWO",
+            "contract_id": contract_id
+        }
+        data["houseContractSecond"] = details["houseContractSecond"]
+        result = NewRequest(url, data, self.cookie).post()
+        print('审核第二个页面返回结果：'+str(result))
+        if result['code']:
+            return result['msg']
+
+        # 初审第三个页面
+        data = {
+            "auditForm": {
+                "audit_status": "PASS",
+                "content": "同意!"
+            },
+            "action_type": "AUDIT",
+            "save_part": "THREE",
+            "contract_id": contract_id}
+        data["houseContractThird"] = details["houseContractThird"]
+        result = NewRequest(url, data, self.cookie).post()
+        print('审核第三个页面返回结果：'+str(result))
+        if result['code'] != 0:
+            return result['msg']
+
+        # 初审第四个页面
+        data = {
+            "auditForm": {
+                "audit_status": "PASS",
+                "content": "同意!"
+            },
+            "action_type": "AUDIT",
+            "save_part": "FOUR",
+            "contract_id": contract_id}
+        data["houseContractFour"] = details["houseContractFour"]
+        result = NewRequest(url, data, self.cookie).post()
+        print('审核第四个页面返回结果：'+str(result))
+        if result['code']:
+            return result['msg']
+
+        # 复审完结
+        url = "http://erp.ishangzu.com/isz_housecontract/houseContractController/houseContractAudit"
+        data = {"audit_status": "PASS", "content": "合同内容、资料、备件无误，正常审核通过。同意!", "is_normal_approved": "0",
+                "contract_id": contract_id}
+
+        result = NewRequest(url, data, self.cookie).put()
+        print('审核第五个页面返回结果：'+str(result))
+        if result['code'] != 0:
+            return result['msg']
+        print('审核委托合同成功！')
+        return
+
+
+# 客户端页面
+class Ui_Form(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(388, 181)
+        Form.setFixedSize(self.width(), self.height())
+        Form.setStyleSheet("background-color:rgb(234,248,249)")
+        # self.lineEdit = QtWidgets.QLineEdit(Form)
+        # self.lineEdit.setGeometry(QtCore.QRect(10, 30, 113, 20))
+        # self.lineEdit.setObjectName("lineEdit")
+        # self.lineEdit.setPlaceholderText('ERP账号')
+        # self.lineEdit.setStyleSheet("color:rgb(66,66,240)")
+        # # self.lineEdit.setStyleSheet("background-color:rgb(221,249,248)")
+        # self.lineEdit.setFont(QFont("Timers", 10))
+        # self.lineEdit.resize(170, 30)
+        #
+        # self.lineEdit_2 = QtWidgets.QLineEdit(Form)
+        # self.lineEdit_2.setGeometry(QtCore.QRect(200, 30, 113, 20))
+        # self.lineEdit_2.setObjectName("lineEdit_2")
+        # self.lineEdit_2.setPlaceholderText('ERP密码')
+        # self.lineEdit_2.setFont(QFont("Timers", 10))
+        # self.lineEdit_2.resize(170, 30)
+        # self.lineEdit_2.setStyleSheet("color:rgb(66,66,240)")
+        # # self.lineEdit_2.setStyleSheet("background-color:rgb(221,249,248)")
+
+        self.lineEdit_3 = QtWidgets.QLineEdit(Form)
+        self.lineEdit_3.setGeometry(QtCore.QRect(10, 30, 113, 20))
+        self.lineEdit_3.setObjectName("lineEdit_3")
+        self.lineEdit_3.setPlaceholderText('房源编号')
+        self.lineEdit_3.setFont(QFont("Timers", 10))
+        self.lineEdit_3.resize(170, 30)
+        self.lineEdit_3.setStyleSheet("color:rgb(66,66,240)")
+        # self.lineEdit_3.setStyleSheet("background-color:rgb(221,249,248)")
+        self.lineEdit_3.setFont(QFont("Timers", 10))
+
+        self.lineEdit_4 = QtWidgets.QLineEdit(Form)
+        self.lineEdit_4.setGeometry(QtCore.QRect(200, 30, 113, 20))
+        self.lineEdit_4.setObjectName("lineEdit_4")
+        self.lineEdit_4.setPlaceholderText('委托合同号')
+        self.lineEdit_4.resize(170, 30)
+        self.lineEdit_4.setStyleSheet("color:rgb(66,66,240)")
+        # self.lineEdit_4.setStyleSheet("background-color:rgb(255,255,255)")
+        self.lineEdit_4.setFont(QFont("Timers", 10))
+
+        self.pushButton = QtWidgets.QPushButton(Form)
+        self.pushButton.setGeometry(QtCore.QRect(280, 130, 75, 23))
+        self.pushButton.setObjectName("pushButton")
+        self.pushButton.setStyleSheet("background-color:rgb(227,69,31)")
+        self.pushButton.setFont(QFont("Timers", 10))
+        self.lineEdit_4.resize(170, 30)
+
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "委托合同审核"))
+        self.pushButton.setText(_translate("Form", "复审"))
+
+
+class SysUi(Ui_Form, QMainWindow):
+    def __init__(self):
+        try:
+            super(SysUi, self).__init__()
+            self.setupUi(self)
+            self.pushButton.clicked.connect(self.get)
+            self.show()
+        except BaseException as e:
+            QMessageBox.about(self, "客户端初始化报错：", str(e))
+
+    def get(self):
+
+        # use = QLineEdit.displayText(self.lineEdit)
+        # pwd = QLineEdit.displayText(self.lineEdit_2)
+        house_code = QLineEdit.displayText(self.lineEdit_3)
+        comtract_num = QLineEdit.displayText(self.lineEdit_4)
+
+        if  house_code == '' or comtract_num == '':
+            print("您有部分数据为空，请输入完整信息之后再点击审核!")
+            return
+
+        # 获取cookie
+
+        result = get_cookie('18279881085', 'a123456789')
+        cookes = result['cookies']
+
+
+        # 审核
+        result = AuditHouseContract(comtract_num, house_code, cookes).audit()
+        if result != None:
+            print(result)
+            return
+        else:
+            return
+
+
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    myWin = SysUi()
+    myWin.show()
+    sys.exit(app.exec_())
